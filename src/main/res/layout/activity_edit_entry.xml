@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StartingWeightActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="413dp"
+        android:layout_height="235dp"
+        android:contentDescription="@+string/Weight Tracker Logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/wt_logo" />
+
+    <TextView
+        android:id="@+id/editEntryLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26sp"
+        android:text="@string/edit_page_label"
+        android:textSize="26sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <TextView
+        android:id="@+id/dateLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="@string/date_label"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editInstructions" />
+
+    <TextView
+        android:id="@+id/entryDate"
+        android:layout_width="198dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="176dp"
+        android:layout_marginEnd="177dp"
+        android:textSize="22sp"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dateLabel" />
+
+    <TextView
+        android:id="@+id/entryWeightLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="174dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="175dp"
+        android:text="@string/weight_label"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/entryDate" />
+
+    <EditText
+        android:id="@+id/entryWeight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:ems="10"
+        android:gravity="center"
+        android:hint="@string/weight_field_hint"
+        android:inputType="number"
+        android:textColorHint="#78909C"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/entryWeightLabel" />
+
+    <Button
+        android:id="@+id/btnDeleteWeight"
+        android:layout_width="111dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginBottom="92dp"
+        android:hint="Use this button to update the entered weight"
+        android:text="@string/delete"
+        app:backgroundTint="#A10707"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnEditWeight"
+        app:layout_constraintHorizontal_bias="0.567"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/entryWeight"
+        app:layout_constraintVertical_bias="0.462" />
+
+    <Button
+        android:id="@+id/btnEditWeight"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="76dp"
+        android:layout_marginBottom="92dp"
+        android:text="@string/edit"
+        android:textColor="#1A237E"
+        app:backgroundTint="#23AE35"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/entryWeight"
+        app:layout_constraintVertical_bias="0.442" />
+
+    <TextView
+        android:id="@+id/editInstructions"
+        android:layout_width="328dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="14dp"
+        android:text="@string/edit_instructions"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/dateLabel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editEntryLabel" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

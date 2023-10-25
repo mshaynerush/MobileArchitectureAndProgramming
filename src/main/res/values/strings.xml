@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Weight tracker</string>
+    <string name="app_slogan">Helping You Help You</string>
+    <string name="login_label">Login</string>
+    <string name="user_name_label">User Name:</string>
+    <string name="user_password_label">Password:</string>
+    <string name="register_link">Register</string>
+    <string name="user_password_speakable">Enter your password</string>
+    <string name="user_name_speakable">Enter your user name</string>
+    <string name="user_starting_weight_label">Starting Weight</string>
+    <string name="user_starting_weight">Weight Entry</string>
+    <string name="enter_weight">Enter Weight</string>
+    <string name="weight_unit_text">Weight Tracker feels it unnecessary to include units as you will likely enter a value of units familiar to you. Enter the number of units you weigh below as a number such as 228 or 125</string>
+    <string name="target_weight_label">Goal Weight</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="date_label">Date</string>
+    <string name="weight_label">Weight</string>
+    <string name="action_label">Action</string>
+    <string name="load_data_button">Load Data</string>
+    <string name="edit_page_label">Edit Entry</string>
+    <string name="edit_instructions">To edit, change the value of the weight and tap Edit. Tapping Delete will delete the entry permanently. </string>
+    <string name="weight_field_hint">This is where you enter the weight to update</string>
+    <string name="nav_add_weight">Add New Weight Entry</string>
+    <string name="nav_update_goal">Update Goal Weight</string>
+    <string name="nav_logout">Log Out</string>
+    <string name="user_actual_name">Your Name</string>
+    <string name="phone_label">Phone number(No dashes)</string>
+    <string name="your_name_hint">Enter Your Name Here</string>
+    <string name="user_name_hint">Enter a User Name</string>
+    <string name="password_hint">Choose a password here</string>
+    <string name="phone_hint">Enter Your Phone Number</string>
+    <string name="register_button_hint">Click to register</string>
+</resources>
